@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<LayoutMain/>}>
-          <Route index path="/login" element={<PageLogin />} />
+          <Route index path="/" element={<PageLogin />} />
           <Route path="/admin/dashboard" element={<PageAdminDashboard />} />
           <Route path="/admin/users" element={<PageAdminUsers />} />
           <Route path="/sales/pipeline" element={<PageSalesPipeline />} />
